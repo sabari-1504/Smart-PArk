@@ -1,0 +1,115 @@
+body {
+    background-color: lightpink;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.welcome-box {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-box h2 {
+    margin: 0;
+}
+
+.gap {
+    height: 20px;
+}
+
+.split-box {
+    display: flex;
+}
+
+.half-box {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-box {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.right-box {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.circle-image {
+    width: 50px;
+    height: 50px;
+    background-image: url('map\ \(1\).png'); /* Replace 'circle-image.jpg' with your image file */
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.open-map {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.long-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.filter-by {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    padding: 10px 20px;
+    background-color: lightpink;
+    color: black;
+    border-radius: 5px;
+}
+
+.big-picture {
+    background-image: url('Untitled\ design.png'); /* Replace 'big-picture.jpg' with your image file */
+    background-size: cover;
+    height: 300px;
+}
+
+.bottom-images {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url('home-icon-silhouette.png'); /* Replace 'icon.jpg' with your image file */
+    background-size: cover;
+}
+.right-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url('right-arrow.png'); /* Replace 'icon.jpg' with your image file */
+    background-size: cover;
+}
